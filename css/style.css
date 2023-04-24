@@ -18,16 +18,14 @@
     
 @media(max-width:767px){
     
-    nav ul{
+    nav .list{
         display: none;
     }
     nav .fa-bars-staggered{
         display: block;
-        
-
     }
-    nav ul{
-        display: block;
+    nav .list{
+        display: none;
         width: 93%;
         top: 20px;
         position: absolute;
@@ -35,63 +33,98 @@
         padding: 20px 15px;
         box-shadow: 0 4px 10px #EDE9FE;
         border-radius: 15px;
+        
+}
+    nav .list.blk{
+        display: block;
+        
     }
-    nav ul li{
+    nav .list li{
         margin-bottom: 0.5rem;
         margin-left: 1rem;
     }
-    nav ul li .Free{
+    nav .list li .Free{
         margin-top: 5px;
     }
-    
+    .bg{
+
+    }
+    .bg img{
+        width: 52%;
+        margin-left: 110px;
+    }
 }
 
 
 @media(min-width:768px){
-    nav ul{
+    nav .list{
         display: block;
         
     }
-    nav ul li{
+    nav .list li{
         display: inline-block;
     }
     nav .fa-bars-staggered{
         display: none;
 
+    }
+    header{
+        text-align: center;
+    }
+    .bg{
+        width: 460px;
+        height: 460px;
+    }
+    .bg img{
+        width: 52%;
+        margin-left: 110px;
     }
     
 }
 @media(min-width:991px){
-    nav ul{
+    nav .list{
         display: block;
         
     }
-    nav ul li{
+    nav .list li{
         display: inline-block;
     }
     nav .fa-bars-staggered{
         display: none;
 
     }
-    nav ul li a{
+    nav .list li a{
         color: var(--link-color);
         margin: 0px 15px;
         font-weight: 500;
 }
+    header{
+        text-align: start;
+    }
+    .bg img{
+        width: 52%;
+        margin-left: 110px;
+
+    }
 }
 @media(min-width:1199px){
-    nav ul{
+    nav .list{
         display: block;
         
     }
-    nav ul li a{
+    nav .list li a{
 
         color: var(--link-color);
         margin: 0px 17px;
         font-weight: 500;
+    }
+    .bg img{
+        width:70%;
+        margin-left: 70px;
+
+    }
 }
-}
-nav ul li .Free{
+nav .list li .Free{
     background-color: #6a49f2;
     color: white;
     padding: 10px 30px;
@@ -100,4 +133,31 @@ nav ul li .Free{
     -moz-border-radius: 50px;
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
+}
+
+header .left h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #32236f;
+}
+header .left span{
+    color: #6a49f2;
+}
+.left p{
+    color: #747493;
+    line-height: 24px;
+}
+
+.user p{
+    width: 80px;
+}
+.right .bg{
+    position: relative;
+    border-radius: 50%;
+    
+    background-color: var(--text-color);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
