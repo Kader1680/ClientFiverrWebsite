@@ -9,11 +9,10 @@ let head = document.querySelector('.head')
 
 window.addEventListener('scroll', ()=>{
     console.log(window.scrollY)
-    if (window.scrollY === 540) {
-        alert('gfgfdgdfg')
-        // head.classList.add('show')
-    } else {
-        // head.classList.remove('show')
-        
+    if (window.scrollY >= 200) {
+        head.classList.add('show')
+    }else{
+        head.classList.remove('show')
+
     }
 })

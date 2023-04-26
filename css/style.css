@@ -78,17 +78,7 @@ body{
         top: 21rem;
         left: -4rem;
     }
-    .head{
-        display: block;
-        transition: .5s ease;
-        -webkit-transition: .5s ease;
-        -moz-transition: .5s ease;
-        -ms-transition: .5s ease;
-        -o-transition: .5s ease;
-}
-    .head.show{
-        display: block;
-    }
+    
     .head p{
         
     }
@@ -246,7 +236,18 @@ header .left h2{
 header .left span{
     color: #6a49f2;
 }
+.head {
+    opacity: 0;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+.head.show{
+    opacity: 1;
 
+}
 .head h2{
     color: #32236f;
     font-size: 40px;
