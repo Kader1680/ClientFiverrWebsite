@@ -407,25 +407,43 @@ margin: auto;
 .content div div{
     width: 25%;
 }
-.content .leftSquare .lft {
+.content .leftSquare .lft, .lft_2 {
     margin-left: -31rem;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
 }
-.content .leftSquare .lft_2 {
+.content .RightSquare .rht, .rht_2{
+    margin-left: 44rem;
+    display: none;
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+}
+/* .content .leftSquare .lft_2 {
     margin-left: -31rem;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-}
+    transition: 2s;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+} */
 .content .leftSquare .lft.block {
     margin-left: 0rem;
 }
 .content .leftSquare .lft_2.block {
     margin-left: 0rem;
+}
+.content .RightSquare .rht.block {
+    margin-left: 0rem;
+    display: block;
+}
+.content .RightSquare .rht_2.block {
+    margin-left: 0rem;
+    display: block;
+
 }

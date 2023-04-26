@@ -33,3 +33,18 @@ window.addEventListener('scroll', ()=>{
 
     }
 })
+let rht = document.querySelector('.rht')
+let rht_2 = document.querySelector('.rht_2')
+
+window.addEventListener('scroll', ()=>{
+    console.log(window.scrollY)
+    if (window.scrollY >= 400) {
+        rht.classList.add('block')
+        rht_2.classList.add('block')
+
+    }else{
+        rht.classList.remove('block')
+        rht_2.classList.remove('block')
+
+    }
+})
