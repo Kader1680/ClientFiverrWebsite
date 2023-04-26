@@ -123,6 +123,35 @@ body{
         top: 28rem;
         left: -11rem;
     }
+    .content .leftSquare div{
+        
+    }
+    .content .leftSquare div p{
+        width: 444%;
+        text-align: end;
+        margin-left: -4rem;
+    }
+    .content .leftSquare div h3{
+        width: 459%;
+        text-align: end;
+        margin-left: -73px;
+    }
+    .content .RightSquare div p{
+        width: 195%;
+    }
+    
+    .content .RightSquare div h3{
+        width: 167%;
+    }
+    .content .RightSquare div{
+        width: 7rem;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 22% 49% 28%;
+        margin-left: 3rem;
+    
+    }
 }
 @media(min-width:991px){
     nav .list{
@@ -173,6 +202,35 @@ body{
         width: 70%;
         margin: auto;
     }
+    .content .leftSquare div{
+        
+    }
+    .content .leftSquare div p{
+        width: 444%;
+        text-align: end;
+        margin-left: -4rem;
+    }
+    .content .leftSquare div h3{
+        width: 459%;
+        text-align: end;
+        margin-left: -73px;
+    }
+    .content .RightSquare div p{
+        width: 300%;
+    }
+    
+    .content .RightSquare div h3{
+        width: 167%;
+    }
+    .content .RightSquare div{
+        width: 7rem;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: 23% 39% 28%;
+        margin-left: 7rem;
+    
+    }
 }
 @media(min-width:1199px){
     nav .list{
@@ -217,26 +275,22 @@ body{
         margin: auto;
     }
     .content .leftSquare div{
-    }
-    /* .content .RightSquare div{
 
-    } */
+    }
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
         margin-left: -4rem;
-
-
-    }
-    .content .RightSquare div p{
-        width: 300%;
     }
     .content .leftSquare div h3{
         width: 459%;
         text-align: end;
         margin-left: -73px;
-
     }
+    .content .RightSquare div p{
+        width: 300%;
+    }
+    
     .content .RightSquare div h3{
         width: 167%;
     }
@@ -247,8 +301,6 @@ body{
         display: grid;
         grid-template-columns: 19% 39% 32%;
         margin-left: 16rem;
-
-        /* grid-template-columns: 19% 35% 37%; */
     }
 
 }
