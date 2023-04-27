@@ -21,6 +21,10 @@ body{
     
 @media(max-width:767px){
     
+    nav i{
+        font-size: 30px;
+        color: var(--link-color);
+    }
     nav .list{
         display: none;
     }
@@ -238,8 +242,6 @@ body{
 }
 @media(min-width:991px){
     nav{
-        padding-top: 23px;
-        padding-bottom: 23px;
         padding-right: 20px;
         padding-left: 51px;
     }
@@ -323,10 +325,10 @@ body{
 }
 @media(min-width:1199px){
     nav{
-        padding-top: 23px;
-        padding-bottom: 23px;
-        padding-right: 53px;
-        padding-left: 94px;
+        padding-right: 56px;
+        padding-left: 97px;
+        /* padding-right: 20px;
+        padding-left: 51px; */
     }
     nav .list{
         display: block;
@@ -399,7 +401,12 @@ body{
     }
 
 }
-
+nav{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    padding-right: 20px;
+    padding-left: 51px;
+}
 nav .list li .Free{
     background-color: #6a49f2;
     color: white;
@@ -501,4 +508,26 @@ margin: auto;
 }
 .content div div{
     width: 25%;
+}
+.scale{
+    width: 100px;
+    height: 100px;
+    margin-top: 7rem;
+    animation: down 5s  ease;
+    -webkit-animation: down 5s  ease;
+}
+@keyframes down{
+    25%{
+        margin-left: 1rem;
+    }
+    
+    50%{
+        margin-left: 2rem;
+    }
+    75%{
+        margin-left: 2rem;
+    }
+    90%{
+        margin-left: 1rem;
+    }
 }
