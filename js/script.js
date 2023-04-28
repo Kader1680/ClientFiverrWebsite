@@ -38,16 +38,17 @@ window.addEventListener('scroll', ()=>{
 
 let rht = document.querySelector('.rht')
 let rht_2 = document.querySelector('.rht_2')
+let vis = document.querySelector('.vis')
 
 window.addEventListener('scroll', ()=>{
     console.log(window.scrollY)
     if (window.scrollY >= 400) {
-        rht.classList.add('block')
-        rht_2.classList.add('block')
+        rht.classList.add('vis')
+        rht_2.classList.add('vis')
 
     }else{
-        rht.classList.remove('block')
-        rht_2.classList.remove('block')
+        rht.classList.remove('vis')
+        rht_2.classList.remove('vis')
 
     }
 })
