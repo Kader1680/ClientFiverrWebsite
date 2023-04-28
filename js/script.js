@@ -88,6 +88,18 @@ function startCouter(element) {
     
 }
 
+let boxs = document.querySelectorAll('.box .child')
 
 
+window.addEventListener('scroll', ()=>{
+    if (window.scrollY > 1100) {
+        boxs.forEach(child => {
+            child.classList.add('view')
+        });
+    }else{
+        boxs.forEach(child => {
+            child.classList.remove('view')
+        });
+    }
+})
 
