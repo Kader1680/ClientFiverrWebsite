@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f6f4fe;
 
     
 }
@@ -9,7 +10,7 @@
 body{
     height: 300rem;
     overflow-x: hidden;
-
+    background-color: #f6f4fe;
 }
 :root{
     --main-color:#545579;
@@ -510,27 +511,43 @@ margin: auto;
 .content div div{
     width: 25%;
 }
-.scale{
-    width: 100px;
-    height: 100px;
-    margin-top: 7rem;
+.counter{
+    background-color: #f6f4fe;
+}
+.leftScale{
+    position: relative;
+}
+.leftScale img:nth-child(2){
+    position: absolute;
+    left: 12rem;
+    top: 9rem;
+}
+.leftScale mmimg{
     animation: down 5s  ease;
     -webkit-animation: down 5s  ease;
 }
 @keyframes down{
     25%{
-        margin-left: 1rem;
+        margin-top: 1rem;
     }
     
     50%{
-        margin-left: 2rem;
+        margin-top: 2rem;
     }
     75%{
-        margin-left: 2rem;
+        margin-top: 2rem;
     }
     90%{
-        margin-left: 1rem;
+        margin-top: 1rem;
     }
+}
+.rightScale h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--title-color);
+}
+.rightScale span{
+    color: var(--text-color);
 }
 .box{
     overflow-x: hidden;
@@ -567,4 +584,40 @@ margin: auto;
     -moz-transform: translateX(0%);
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
+}
+.steps{
+}
+.steps .wall .bol{
+    width: 20px;
+    height: 20px;
+    background-color: #32236f;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.steps .wall .pilet img:nth(1){
+    top: 15rem;
+    left: -50px;
+    position: absolute;
+
+}
+.steps .wall .pilet img:nth(2){
+    top: 15rem;
+    left: -50px;
+    position: absolute;
+
+}.steps .wall .pilet img:nth(3){
+    top: 25rem;
+    left: -50px;
+    position: absolute;
+
+}
+.steps .wall .pilet{
+    position: relative;
+    width: 7px;
+    height: 54rem;
+    background-color: #32236f;
+
 }
