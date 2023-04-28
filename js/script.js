@@ -52,16 +52,28 @@ window.addEventListener('scroll', ()=>{
     }
 })
 
-// scroll number counter
 
+
+// scroll number counter
 let counter = document.querySelector('.counter')
 let nums = document.querySelectorAll('.nums .num')
+let startCount = false
+window.addEventListener('scroll', ()=>{
 
-
-nums.forEach((num) => {
-    startCouter(num)
     
-});
+
+    if(window.scrollY >= 1000){
+
+        if (!startCount) {
+            nums.forEach(num => {
+                startCouter(num)
+            });
+        }
+        startCount = true
+    }
+      
+    
+})
 function startCouter(element) {
     // define goal number
     let goal = element.dataset.goal
@@ -72,6 +84,10 @@ function startCouter(element) {
         if (element.textContent == goal) {
             clearInterval(count)
         }
-    }, 10);
+    }, 1 / goal);
     
 }
+
+
+
+
