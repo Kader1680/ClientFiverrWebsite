@@ -89,18 +89,53 @@ function startCouter(element) {
     
 }
 
-let boxs = document.querySelectorAll('.box .child')
+
+// wall element lft righ
+
+let FirstLeft = document.querySelector('.FirstLeft')
+let FirstRight = document.querySelector('.FirstRight')
+let secndleft = document.querySelector('.secndleft')
+let secndright = document.querySelector('.secndright')
+let thrdleft = document.querySelector('.thrdleft')
+let thrdright = document.querySelector('.thrdright')
 
 
 window.addEventListener('scroll', ()=>{
-    if (window.scrollY > 1100) {
-        boxs.forEach(child => {
-            child.classList.add('view')
-        });
-    }else{
-        boxs.forEach(child => {
-            child.classList.remove('view')
-        });
+    if (window.scrollY > 2400) {
+        
+        FirstLeft.classList.add('center')
+        FirstRight.classList.add('center')
+        
+    } else{
+        
+        FirstLeft.classList.remove('center')
+        FirstRight.classList.remove('center')
+        
     }
 })
 
+window.addEventListener('scroll', ()=>{
+    if (window.scrollY > 2500) {
+        
+        
+        secndleft.classList.add('center')
+        secndright.classList.add('center')
+    } else{
+        
+
+        aaa.classList.remove('center')
+        bbb.classList.remove('center')
+    }
+})
+
+window.addEventListener('scroll', ()=>{
+    if (window.scrollY > 2900) {
+        thrdleft.classList.add('center')
+        thrdright.classList.add('center')
+    } else{
+        
+
+        thrdleft.classList.remove('center')
+        thrdleft.classList.remove('center')
+    }
+})
