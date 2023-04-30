@@ -123,8 +123,8 @@ window.addEventListener('scroll', ()=>{
     } else{
         
 
-        aaa.classList.remove('center')
-        bbb.classList.remove('center')
+        secndleft.classList.remove('center')
+        secndright.classList.remove('center')
     }
 })
 
@@ -136,6 +136,6 @@ window.addEventListener('scroll', ()=>{
         
 
         thrdleft.classList.remove('center')
-        thrdleft.classList.remove('center')
+        thrdright.classList.remove('center')
     }
 })

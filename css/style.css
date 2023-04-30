@@ -20,7 +20,15 @@ body{
     --bg-color:#f6f4fe;
     --link-color:#3e3f66;
     }
+@media(max-width:280px){
+    .TopField {
+        top: 346rem;
+        width: 66%;
+        margin-left: 4rem;
+    }
     
+    
+}   
 @media(max-width:767px){
     
     nav i{
@@ -202,14 +210,19 @@ body{
         left: 12rem;
         top: 109px;
     }
-    .modern img:nth-child(2), img:nth-child(3){
+    .modern img:nth-child(2){
         width: 9rem;
         position: absolute;
         z-index: 2;
         left: 9rem;
         top: 13rem;
-    }.modern img:nth-child(3){
+    }
+    .modern img:nth-child(3){
         top: 22rem;
+        width: 9rem;
+        position: absolute;
+        z-index: 2;
+        left: 9rem;
     }
     .steps .wall {
         margin-top: 0rem;
