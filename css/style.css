@@ -20,15 +20,7 @@ body{
     --bg-color:#f6f4fe;
     --link-color:#3e3f66;
     }
-@media(max-width:280px){
-    .TopField {
-        top: 346rem;
-        width: 66%;
-        margin-left: 4rem;
-    }
-    
-    
-}   
+
 @media(max-width:767px){
     
     nav i{
@@ -164,30 +156,35 @@ body{
         width: 12rem;
     }
     .steps .wall{
-        margin-top: 10rem;
+        margin-top: -58rem;
         margin-left: 38px;
     }
     .TopField, .MiddelField, .LastField{
         text-align: center;
         overflow-x: hidden;
-        position: absolute;
+        /* position: absolute; */
     }
     .TopField{
         top: 346rem;
-        width: 66%;
+        /* width: 66%;
         margin-left: 4rem;
+        margin-top: 7rem; */
+    }
+    .FirstLeft {
+        margin-top: 5rem;
     }
     .MiddelField{
         top: 381rem;
-        width: 94%;
+        /* width: 94%; */
     }
     .LastField{
         top: 406rem;
-        width: 88%;
+        /* width: 88%; */
         
     }
     .image{
-        width: 15rem;
+        width: 20rem;
+        margin: 50px 0px;
     }
     .choise{
         text-align: center;
@@ -197,11 +194,11 @@ body{
     }
     .galerie img{
         width: 14rem;
-    
     }
     .galerie .modern{
         position: absolute;
         top: -7rem;
+        left: -15px;
     }
     .modern img:nth-child(1){
         width: 8rem;
@@ -224,16 +221,10 @@ body{
         z-index: 2;
         left: 9rem;
     }
-    .steps .wall {
-        margin-top: 0rem;
-        margin-left: 9px;
-    }
     .pilet .uno{
         position: absolute;
         top: -10rem;
         left: -10px;
-
-        
     }
     .pilet .dou{
         position: absolute;
@@ -399,6 +390,9 @@ body{
         -moz-transform: translateX(0%);
         -ms-transform: translateX(0%);
         -o-transform: translateX(0%);
+    }
+    .desc{
+        width: 70%;
     }
     .content .RightSquare .rht.vis {
         transform: translateX(0%);
@@ -1084,9 +1078,7 @@ header .left span{
     -o-transform: translateX(0%);
 }
 
-.desc{
-    width: 70%;
-}
+
 .menu div{
     text-align: center;
     font-weight: bolder;
