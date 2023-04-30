@@ -85,7 +85,7 @@ function startCouter(element) {
         if (element.textContent == goal) {
             clearInterval(count)
         }
-    }, 1 / goal);
+    },  1 / goal);
     
 }
 

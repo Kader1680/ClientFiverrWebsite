@@ -37,6 +37,7 @@ body{
         display: none;
         width: 93%;
         top: 20px;
+        left: 12px;
         position: absolute;
         background-color: rgb(206, 206, 206);
         padding: 20px 15px;
@@ -84,7 +85,6 @@ body{
         top: 21rem;
         left: -4rem;
     }
-    
     .head p{
         
     }
@@ -128,20 +128,28 @@ body{
         margin-left: 40px;
     }
     .content .RightSquare .rht {
+        margin-left: 3rem;
         text-align: center;
-        transform: translateX(50%);
-        -webkit-transform: translateX(50%);
-        -moz-transform: translateX(50%);
-        -ms-transform: translateX(50%);
-        -o-transform: translateX(50%);
-}
-    .content .RightSquare .rht {
-        
+        display: block;
 }
     .content .RightSquare .rht_2 {
-        /* margin-left: 3rem;
+        margin-left: 3rem;
         text-align: center;
-        display: block; */
+        display: block;
+    }
+    .content .RightSquare .rht.vis {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+}
+    .content .RightSquare .rht_2.vis {
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
     }
     .content .leftSquare .one img {
         margin-left: 3rem;
@@ -151,6 +159,7 @@ body{
         margin-top: 10rem;
         margin-left: 38px;
     }
+
 }
 
 
@@ -279,6 +288,28 @@ body{
         margin-top: 3rem;
         margin-left: 22rem;
     }
+    .TopField, .MiddelField, .LastField{
+        display: flex;
+        justify-content: space-between;
+    }
+    .TopField{
+        overflow-x: hidden;
+        position: absolute;
+        top: 281rem;
+        width: 89%;
+    }
+    .MiddelField{
+        overflow-x: hidden;
+        position: absolute;
+        top: 300rem;
+        width: 94%;
+    }
+    .LastField{
+        overflow-x: hidden;
+        position: absolute;
+        top: 321rem;
+        width: 88%;
+    }
 }
 @media(min-width:991px){
     nav{
@@ -365,6 +396,22 @@ body{
         /* margin-top: 10rem; */
         margin-left: 30rem;
     }
+    
+    .TopField{
+        
+        top: 186rem;
+        width: 88%;
+    }
+    .MiddelField{
+        
+        top: 207rem;
+        width: 88%;
+    }
+    .LastField{
+        
+        top: 227rem;
+        width: 88%;
+    }
 }
 @media(min-width:1199px){
     nav{
@@ -448,7 +495,46 @@ body{
         margin-left: 35rem;
     }
     
+    .TopField{
+        
+        top: 186rem;
+        width: 88%;
+    }
+    .MiddelField{
+        
+        top: 207rem;
+        width: 88%;
+    }
+    .LastField{
+        
+        top: 227rem;
+        width: 88%;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 nav{
     padding-top: 23px;
     padding-bottom: 23px;
@@ -796,18 +882,13 @@ header .left span{
     left: -3rem;
 }
 
-.TopField{
+/* .TopField{
     overflow-x: hidden;
     position: absolute;
     top: 226rem;
     width: 88%;
-}
-.TopField{
-    overflow-x: hidden;
-    position: absolute;
-    top: 186rem;
-    width: 88%;
-}
+} */
+
 .FirstLeft{
     transform: translateX(-105%);
     -webkit-transform: translateX(-105%);
@@ -874,18 +955,7 @@ header .left span{
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
 }
-.MiddelField{
-    overflow-x: hidden;
-    position: absolute;
-    top: 207rem;
-    width: 88%;
-}
-.LastField{
-    overflow-x: hidden;
-    position: absolute;
-    top: 227rem;
-    width: 88%;
-}
+
 .desc{
     width: 70%;
 }
