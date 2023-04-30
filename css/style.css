@@ -159,7 +159,124 @@ body{
         margin-top: 10rem;
         margin-left: 38px;
     }
+    .TopField, .MiddelField, .LastField{
+        text-align: center;
+        overflow-x: hidden;
+        position: absolute;
+    }
+    .TopField{
+        top: 346rem;
+        width: 66%;
+        margin-left: 4rem;
+    }
+    .MiddelField{
+        top: 381rem;
+        width: 94%;
+    }
+    .LastField{
+        top: 406rem;
+        width: 88%;
+        
+    }
+    .image{
+        width: 15rem;
+    }
+    .choise{
+        text-align: center;
+    }
+    .galerie{
+        
+    }
+    .galerie img{
+        width: 14rem;
+    
+    }
+    .galerie .modern{
+        position: absolute;
+        top: -7rem;
+    }
+    .modern img:nth-child(1){
+        width: 8rem;
+        position: absolute;
+        z-index: 5;
+        left: 12rem;
+        top: 109px;
+    }
+    .modern img:nth-child(2), img:nth-child(3){
+        width: 9rem;
+        position: absolute;
+        z-index: 2;
+        left: 9rem;
+        top: 13rem;
+    }.modern img:nth-child(3){
+        top: 22rem;
+    }
+    .steps .wall {
+        margin-top: 0rem;
+        margin-left: 9px;
+    }
+    .pilet .uno{
+        position: absolute;
+        top: -10rem;
+        left: -10px;
 
+        
+    }
+    .pilet .dou{
+        position: absolute;
+        top: 16rem;
+        left: -6px;
+
+    }
+    .pilet .tri{
+        position: absolute;
+        top: 44rem;
+        left: -6px;
+
+    }
+    .wall .circleImg img{
+        position: relative;
+        margin-left: -12px;
+        margin-top: 8rem;
+        width: 3rem;
+    }
+    .wall .circleImg h2{
+        position: absolute;
+        z-index: 2;
+        left: 1px;
+        margin-top: 139px;
+        font-size: 18px;
+    }
+    .steps .wall .bol{
+        margin-left: -7.5px;
+        width: 20px;
+        height: 20px;
+        background-color: #32236f;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .steps .wall .pilet div:nth-child(2){
+        margin-top: 6rem;
+    }
+    .steps .wall .pilet div:nth-child(3){
+        margin-top: 6rem;
+    }
+    .steps .wall .pilet{
+        position: relative;
+        width: 2px;
+        height: 59rem;
+        background-color: #32236f;
+        margin-bottom: 10rem;
+    }
+    .leftScale img:nth-child(2){
+        position: absolute;
+        left: 9rem;
+        top: 17rem;
+        width: 12rem;    
+    }
 }
 
 
@@ -288,28 +405,96 @@ body{
         margin-top: 3rem;
         margin-left: 22rem;
     }
+    .leftScale img:nth-child(2){
+        position: absolute;
+        left: 12rem;
+        top: 9rem;
+    }
     .TopField, .MiddelField, .LastField{
         display: flex;
         justify-content: space-between;
-    }
-    .TopField{
         overflow-x: hidden;
         position: absolute;
+    }
+    .TopField{
+        
         top: 281rem;
         width: 89%;
     }
     .MiddelField{
-        overflow-x: hidden;
-        position: absolute;
+        
         top: 300rem;
         width: 94%;
     }
     .LastField{
-        overflow-x: hidden;
-        position: absolute;
+        
         top: 321rem;
         width: 88%;
     }
+    .galerie .modern{
+        position: absolute;
+        top: 6rem;
+        left: 16rem;
+    }
+    .galerie .modern img{
+        position: absolute;
+    }
+    .galerie .modern img:nth-child(1){
+        z-index: 2;
+        top: -7rem;
+        left: 4rem;
+    }
+    .galerie .modern img:nth-child(2){
+        
+    }
+    .galerie .modern img:nth-child(3){
+        top: 14rem;
+        left: -3rem;
+    }
+    .wall{
+        margin-top: 15rem;
+    }
+    .wall .circleImg{
+        /* position: relative; */
+    }
+    .wall .circleImg img{
+        position: relative;
+        margin-left: -54px;
+        margin-top: 7rem;
+    }
+    .wall .circleImg h2{
+        position: absolute;
+        z-index: 2;
+        left: -20px;
+        margin-top: 133px;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .steps .wall .bol{
+        margin-left: -7.5px;
+        width: 20px;
+        height: 20px;
+        background-color: #32236f;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    .steps .wall .pilet div:nth-child(2){
+        margin-top: 6rem;
+    }
+    .steps .wall .pilet div:nth-child(3){
+        margin-top: 6rem;
+    }
+    .steps .wall .pilet{
+        position: relative;
+        width: 4px;
+        height: 52rem;
+        background-color: #32236f;
+        margin-bottom: 10rem;
+    }
+    
 }
 @media(min-width:991px){
     nav{
@@ -645,11 +830,7 @@ header .left span{
 .leftScale{
     position: relative;
 }
-.leftScale img:nth-child(2){
-    position: absolute;
-    left: 12rem;
-    top: 9rem;
-}
+
 .leftScale .img2{
     animation: down 5s infinite  ease;
     -webkit-animation: down 5s infinite  ease;
@@ -791,50 +972,7 @@ header .left span{
 }
 .steps{
 }
-.wall{
-    margin-top: 15rem;
 
-}
-.wall .circleImg{
-    /* position: relative; */
-}
-.wall .circleImg img{
-    position: relative;
-    margin-left: -54px;
-    margin-top: 7rem;
-}
-.wall .circleImg h2{
-    position: absolute;
-    z-index: 2;
-    left: -20px;
-    margin-top: 133px;
-    font-size: 45px;
-    font-weight: 700;
-}
-.steps .wall .bol{
-    margin-left: -7.5px;
-    width: 20px;
-    height: 20px;
-    background-color: #32236f;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-}
-.steps .wall .pilet div:nth-child(2){
-    margin-top: 6rem;
-}
-.steps .wall .pilet div:nth-child(3){
-    margin-top: 6rem;
-}
-.steps .wall .pilet{
-    position: relative;
-    width: 4px;
-    height: 52rem;
-    background-color: #32236f;
-    margin-bottom: 10rem;
-}
 .steps h2{
     font-size: 40px;
     font-weight: 700;
@@ -855,39 +993,16 @@ header .left span{
     color: var(--title-color);
     font-weight: 500;
 }
+
 .galerie img{
     animation: down 5s infinite  ease;
     -webkit-animation: down 5s infinite  ease;
 }
 .galerie .modern{
-    position: absolute;
-    top: 6rem;
-    left: 16rem;
     animation: up 5s infinite  ease;
     -webkit-animation: up 5s infinite  ease;
 }
-.galerie .modern img{
-    position: absolute;
-}
-.galerie .modern img:nth-child(1){
-    z-index: 2;
-    top: -7rem;
-    left: 4rem;
-}
-.galerie .modern img:nth-child(2){
-    
-}
-.galerie .modern img:nth-child(3){
-    top: 14rem;
-    left: -3rem;
-}
 
-/* .TopField{
-    overflow-x: hidden;
-    position: absolute;
-    top: 226rem;
-    width: 88%;
-} */
 
 .FirstLeft{
     transform: translateX(-105%);

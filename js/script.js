@@ -101,7 +101,7 @@ let thrdright = document.querySelector('.thrdright')
 
 
 window.addEventListener('scroll', ()=>{
-    if (window.scrollY > 2400) {
+    if (window.scrollY > 2400 || window.scrollY > 5000 ) {
         
         FirstLeft.classList.add('center')
         FirstRight.classList.add('center')
