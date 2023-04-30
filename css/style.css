@@ -808,7 +808,7 @@ header .left span{
     background-repeat: no-repeat;
     border: 5px solid;
     border-radius: 60px;
-    background-image: url("/images/screen-4-home.webp");
+    background-image: url("./images/screen-4-home.webp");
     
 }
 .bg{
@@ -818,16 +818,16 @@ header .left span{
 }
 @keyframes Slide {
     25%{
-        background-image: url("/images/screen-2-home.webp");
+        background-image: url("./images/screen-2-home.webp");
     }
     50%{
-        background-image: url("/images/screen-3-home.webp");
+        background-image: url("./images/screen-3-home.webp");
     }
     75%{
-        background-image: url("/images/screen-4-home.webp");
+        background-image: url("./images/screen-4-home.webp");
     }
     100%{
-        background-image: url("/images/screen1e.webp");
+        background-image: url("./images/screen1e.webp");
     }
 }
 
