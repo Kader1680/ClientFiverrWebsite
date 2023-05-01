@@ -139,3 +139,15 @@ window.addEventListener('scroll', ()=>{
         thrdright.classList.remove('center')
     }
 })
+
+// FAQ Question & Answer
+let Accordium = document.getElementsByClassName('contentBx')
+
+
+for (let i = 0; i < Accordium.length; i++) {
+    
+    Accordium[i].addEventListener('click', ()=>{
+        Accordium[i].classList.toggle("active")
+    })
+}
+

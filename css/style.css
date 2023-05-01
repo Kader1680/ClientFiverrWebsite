@@ -1139,3 +1139,50 @@ header .left span{
     margin: 40px 50px;
     line-height: 33px;
 }
+
+
+.accordium{
+    max-width: 800px;
+}
+
+.accordium .contentBx{
+    padding: 10px 20px;
+    position: relative;
+}
+.contentBx .question{
+    color: white;
+    padding: 10px;
+    background-color: #6a49f2;
+}
+.contentBx .question::before{
+    content: "+";
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 30px;
+
+}
+.contentBx .answer{
+    transition: .5s ease;
+    height: 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+}
+.contentBx.active .answer {
+    height: auto;
+    overflow: visible;
+    color: black;
+    background-color: #dfdfdf;
+    padding: 20px 30px;
+}
+.contentBx div{
+    border-radius: 5px 0px 5px 0px;
+    -webkit-border-radius: 5px 0px 5px 0px;
+    -moz-border-radius: 5px 0px 5px 0px;
+    -ms-border-radius: 5px 0px 5px 0px;
+    -o-border-radius: 5px 0px 5px 0px;
+}
