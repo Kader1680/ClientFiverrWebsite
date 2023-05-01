@@ -290,6 +290,29 @@ body{
         margin: auto;
         margin-top: 2rem;
     }
+    .convinced div:nth-child(1){
+        margin: 2rem 0px;
+        padding: 0px 38px;
+    
+    }
+    .convinced .iphone img:nth-child(1) {
+        position: relative;
+        width: 9rem;
+        
+    }
+    .convinced .iphone img:nth-child(2) {
+        position: absolute;
+        width: 11rem;
+        left: 85px;
+        top: -25px;
+    }
+    .convinced{
+        padding-bottom: 5rem;
+    }
+    .accordium {
+        height: 14rem;
+        margin-bottom: 7rem;
+    }
 }
 
 
@@ -537,7 +560,20 @@ body{
         margin: 20px 5px;
         line-height: 33px;
     }
-    
+    .convinced div:nth-child(1){
+        margin: 9rem 0px;
+        padding: 0px 38px;
+    }
+    .convinced .iphone img:nth-child(1){
+        position: relative;
+        width: 14rem;
+    }
+    .convinced .iphone img:nth-child(2){
+        position: absolute;
+        width: 16rem;
+        left: 181px;
+        top: -30px;
+    }
 }
 @media(min-width:991px){
     nav{
@@ -1220,14 +1256,4 @@ header .left span{
 }
 .convinced .iphone{
     position: relative;
-}
-.convinced .iphone img:nth-child(1){
-    position: relative;
-    width: 14rem;
-}
-.convinced .iphone img:nth-child(2){
-    position: absolute;
-    width: 16rem;
-    left: 181px;
-    top: -30px;
 }
