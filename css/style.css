@@ -1186,3 +1186,26 @@ header .left span{
     -ms-border-radius: 5px 0px 5px 0px;
     -o-border-radius: 5px 0px 5px 0px;
 }
+
+.convinced{
+    border-radius: 20px;
+    color: white;
+    background-color: var(--text-color);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.convinced .iphone{
+    position: relative;
+}
+.convinced .iphone img:nth-child(1){
+    position: relative;
+    width: 14rem;
+}
+.convinced .iphone img:nth-child(2){
+    position: absolute;
+    width: 16rem;
+    left: 181px;
+    top: -30px;
+}
