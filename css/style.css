@@ -154,6 +154,9 @@ body{
         margin-left: 3rem;
         width: 12rem;
     }
+    .rightScale {
+        margin: 7rem 0px;
+    }
     .countTop div {
         width: 100%;
         padding: 0px 15px;
@@ -566,13 +569,20 @@ body{
     }
     .convinced .iphone img:nth-child(1){
         position: relative;
-        width: 14rem;
+        width: 6rem;
+        margin: 6rem 0px;
     }
     .convinced .iphone img:nth-child(2){
         position: absolute;
-        width: 16rem;
+        /* width: 16rem;
         left: 181px;
-        top: -30px;
+        top: -30px; */
+        width: 12rem;
+        left: 97px;
+        top: 46px;
+    }
+    .convinced{
+        padding-bottom: 5rem;
     }
 }
 @media(min-width:991px){
@@ -1256,4 +1266,24 @@ header .left span{
 }
 .convinced .iphone{
     position: relative;
+}
+.convinced div button{
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+.convinced div button:hover{
+    background-color: var(--text-color);
+    color: white;
 }
