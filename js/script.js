@@ -46,10 +46,14 @@ window.addEventListener('scroll', ()=>{
         rht.classList.add('vis')
         rht_2.classList.add('vis')
 
-    }else{
+    // }else if(window.scrollY >= 1960){
+    //     rht.classList.add('vis')
+    //     rht_2.classList.add('vis')
+    // }
+}
+    else{
         rht.classList.remove('vis')
         rht_2.classList.remove('vis')
-
     }
 })
 
@@ -85,7 +89,7 @@ function startCouter(element) {
         if (element.textContent == goal) {
             clearInterval(count)
         }
-    },  1 / goal);
+    },  1 / 10000000);
     
 }
 
