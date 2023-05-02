@@ -1372,6 +1372,8 @@ header .left span{
 footer{
     color: white;
     background-color: #583bd3;
+    width: 100%;
+    margin-left: 0rem;
 }
 footer div ul{
     list-style: none;
