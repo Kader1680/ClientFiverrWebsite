@@ -68,7 +68,7 @@ body{
     .bg{
         width: 266px;
         height: 532px;
-        margin: auto;
+        /* margin: auto; */
     }
     .bg img:nth-child(1){
         position: absolute;
