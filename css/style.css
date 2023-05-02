@@ -320,9 +320,18 @@ body{
     .convinced{
         padding-bottom: 5rem;
     }
+    .email{
+        text-align: center;
+    }
     .accordium {
         height: 14rem;
         margin-bottom: 7rem;
+    }
+    footer div{
+        text-align: center;
+    }
+    .copyright{
+        text-align: center;
     }
 }
 
@@ -404,7 +413,7 @@ body{
         -moz-transform: translateX(-500%);
         -ms-transform: translateX(-500%);
         -o-transform: translateX(-500%);
-}
+    }
     .content .RightSquare{
         overflow-x: hidden
     }
@@ -605,7 +614,7 @@ body{
         top: 46px;
     }
     .convinced{
-        padding-bottom: 5rem;
+        /* padding-bottom: 5rem; */
     }
     .email{
         display: flex;
@@ -615,6 +624,10 @@ body{
     .email input{
         width: 22rem;
         margin: 0px 2rem;
+    }
+    .copyright{
+        display: flex;
+        align-items: center;
     }
 }
 @media(min-width:991px){
@@ -1328,22 +1341,23 @@ header .left span{
     color: white;
 }
 .email{
-    margin: auto;
+    margin: 2rem auto;
     color: white;
     background-color: var(--text-color);
 }
 .email input, button{
+    border: none;
     font-weight: 600;
     border: 1px solid var(--text-color);
     color: var(--text-color);
     background-color: white;
     margin: 10px 0px;
     padding: 10px 30px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     transition: .5s;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -1353,4 +1367,20 @@ header .left span{
 .email button:hover{
     background-color: var(--text-color);
     color: white;
+}
+
+footer{
+    color: white;
+    background-color: #583bd3;
+}
+footer div ul{
+    list-style: none;
+}
+footer div ul li{
+    margin: 10px 0px;
+
+}
+footer div ul li a{
+    color: white;
+    text-decoration: none;
 }
