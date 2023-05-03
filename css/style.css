@@ -124,7 +124,9 @@ body{
 
     }
     .content .phone img{
-        margin-left: 40px;
+        display: block;
+        margin: auto;
+        width: 74%;
     }
     .content .RightSquare .rht {
         margin-left: 3rem;
@@ -333,6 +335,7 @@ body{
     .copyright{
         text-align: center;
     }
+
 }
 
 
@@ -353,12 +356,21 @@ body{
         margin-bottom: 5rem;
     }
     .bg{
-        width: 389px;
-        height: 806px;
-        margin: auto;
+        width: 287px;
+        height: 587px;
+        margin: -4rem auto;
     }
     .head p{
         
+    }
+    .left{
+        margin-top: 6rem;
+        margin-bottom: 1rem;
+    }
+    .r{
+        width: 26rem;
+        height: 26rem;
+        margin: 6rem auto;
     }
     .bg img:nth-child(1){
         position: absolute;
@@ -435,7 +447,7 @@ body{
         -moz-transform: translateX(0%);
         -ms-transform: translateX(0%);
         -o-transform: translateX(0%);
-}
+    }
     .content .leftSquare .lft_2.block {
         transform: translateX(0%);
         -webkit-transform: translateX(0%);
@@ -606,9 +618,6 @@ body{
     }
     .convinced .iphone img:nth-child(2){
         position: absolute;
-        /* width: 16rem;
-        left: 181px;
-        top: -30px; */
         width: 12rem;
         left: 97px;
         top: 46px;
@@ -617,13 +626,17 @@ body{
         /* padding-bottom: 5rem; */
     }
     .email{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 40px 0px;
+        display: grid;
+        text-align: center;
     }
     .email input{
         width: 22rem;
         margin: 0px 2rem;
+    }
+    .email button{
+        width: 21%;
+        margin: auto;
     }
     .copyright{
         display: flex;
@@ -654,6 +667,10 @@ body{
     header{
         text-align: start;
     }
+    .left{
+        margin-top: 0;
+        margin-bottom: 0;
+    }
     .right{
         height: 28rem;
     }
@@ -661,6 +678,7 @@ body{
         height: 484px;
         width: 241px;
         margin-left: 109px;
+        margin-top: -1rem;
     }
     .bg img:nth-child(1){
         position: absolute;
@@ -729,15 +747,22 @@ body{
         width: 88%;
     }
     .email{
-        text-align: center;
+        display: grid;
+        grid-template-columns: 39% 24% 42%;
+        align-items: center;
     }
+    .email button{
+        width: 30%;
+    }
+    .countTop div {
+        width: 90%;
+    }
+    
 }
 @media(min-width:1199px){
     nav{
         padding-right: 56px;
         padding-left: 97px;
-        /* padding-right: 20px;
-        padding-left: 51px; */
     }
     nav .list{
         display: block;
@@ -810,7 +835,6 @@ body{
     }
 
     .steps .wall{
-        /* margin-top: 2rem; */
         margin-left: 35rem;
     }
     
@@ -829,10 +853,9 @@ body{
         top: 227rem;
         width: 88%;
     }
+    
     .email{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: 44% 18% 42%;
     }
 }
 
@@ -928,13 +951,14 @@ header .left span{
     -o-border-radius: 50%;
 }
 .bg{
+    margin: auto;
+    display: block;
     z-index: 2;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
     border: 5px solid;
     border-radius: 60px;
-    /* background-image: url("./images/screen-4-home.webp"); */
     background-image: url("../images/screen-4-home.webp");
 }
 .bg{
@@ -1385,4 +1409,11 @@ footer div ul li{
 footer div ul li a{
     color: white;
     text-decoration: none;
+}
+.email button{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
