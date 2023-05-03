@@ -321,6 +321,7 @@ body{
     }
     .convinced{
         padding-bottom: 5rem;
+        text-align: center;
     }
     .email{
         text-align: center;
@@ -1417,3 +1418,42 @@ footer div ul li a{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+.scrollTop{
+    position: fixed;
+    top: 43rem;
+    z-index: 10;
+    right: 17px;
+    width: 6rem;
+    opacity: 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+.scrollTop.scrollview{
+    
+    opacity: 1;
+}
+.Nav{
+    opacity: 1;
+    transition: .8s;
+    -webkit-transition: .8s;
+    -moz-transition: .8s;
+    -ms-transition: .8s;
+    -o-transition: .8s;
+}
+.Nav.NavView{
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    background-color: #583bd3;
+    color: white;
+}
+.NavView i{
+    color: white;
+}
+.NavView ul li a{
+    color: white;
+}
+

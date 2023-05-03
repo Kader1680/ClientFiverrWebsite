@@ -155,3 +155,36 @@ for (let i = 0; i < Accordium.length; i++) {
     })
 }
 
+// scroll to the top 
+let scrollTop = document.querySelector('.scrollTop')
+scrollTop.addEventListener('click', ()=>{
+    
+    window.scrollTo({
+        top:0,
+        behavior:"auto"
+    })
+})
+
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 1400) {
+        scrollTop.classList.add('scrollview')
+    } else {
+        scrollTop.classList.remove('scrollview')
+        
+    }
+})
+
+// nav hidden view 
+
+let Nav = document.querySelector('.Nav')
+
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 700) {
+        Nav.classList.add('NavView')
+    } else {
+        Nav.classList.remove('NavView')
+        
+    }
+})
