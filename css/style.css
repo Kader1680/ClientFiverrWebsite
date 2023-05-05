@@ -67,8 +67,15 @@ body{
         
     }
     nav .list li{
-        margin-bottom: 0.5rem;
-        margin-left: 1rem;
+        /* margin-bottom: 0.5rem;
+        margin-left: 1rem; */
+        margin-bottom: 3.5rem;
+        margin-left: auto;
+        text-align: center;
+
+    }
+    nav .list li a{
+        color: white;
     }
     nav .list li a{
         color: white;
