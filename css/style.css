@@ -2,15 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: #f6f4fe; */
+    /*  */
 
     
 }
+html body{
+    background-color: #f6f4fe;
 
+}
 body{
     height: 300rem;
     overflow-x: hidden;
+
     /* background-color: #f6f4fe; */
+}
+.container{
+    background-color: #ffffff;
+
 }
 :root{
     --main-color:#545579;
@@ -884,8 +892,8 @@ body{
 
 
 nav{
-    padding-top: 23px;
-    padding-bottom: 23px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     padding-right: 20px;
     padding-left: 51px;
 }
@@ -1286,8 +1294,8 @@ header .left span{
     color: white;
 }
 .accordium{
-    max-width: 800px;
-    height: 11rem;
+    /* max-width: 800px;
+    height: 11rem; */
     margin-bottom: 5rem;
 }
 
@@ -1302,6 +1310,14 @@ header .left span{
 }
 .contentBx .question::before{
     content: "+";
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    font-size: 30px;
+
+}
+.contentBx.active  .question::before{
+    content: "-";
     position: absolute;
     right: 40px;
     top: 10px;
@@ -1447,13 +1463,13 @@ footer div ul li a{
     position: fixed;
     width: 100%;
     z-index: 5;
-    background-color: #583bd3;
-    color: white;
+    background-color: rgb(246 246 244 / 82%);
+    color: var(--link-color);
 }
 .NavView i{
-    color: white;
+    color: var(--link-color);
 }
 .NavView ul li a{
-    color: white;
+    color: var(--link-color);
 }
 
