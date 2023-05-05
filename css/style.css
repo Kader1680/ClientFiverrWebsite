@@ -30,6 +30,12 @@ body{
     }
 
 @media(max-width:767px){
+    .Nav{
+        position: fixed;
+        width: 100%;
+        z-index: 5;
+        background-color: #dfdfdf;
+    }
     nav i{
         font-size: 30px;
         color: var(--link-color);
@@ -72,13 +78,10 @@ body{
         text-align: center;
         padding: 14px 0px;
         color: white;
-
-
     }
     nav .list li:hover{
         background-color: #dfdfdf;
         color: #32236f;
-        
 
     }    
     nav .list li a{
@@ -95,6 +98,9 @@ body{
     header{
         text-align: center;
         margin-bottom: 11rem;
+    }
+    .left{
+        margin: 5rem auto;
     }
     .left h2{
         font-size: 30px;
@@ -378,6 +384,30 @@ body{
 
 
 @media(min-width:768px){
+    .Nav{
+        opacity: 1;
+        transition: .8s;
+        -webkit-transition: .8s;
+        -moz-transition: .8s;
+        -ms-transition: .8s;
+        -o-transition: .8s;
+        z-index: 6;
+    }
+    .Nav.NavView{
+        position: fixed;
+        width: 100%;
+        z-index: 6;
+        background-color: rgb(246 246 244 / 82%);
+        color: var(--link-color);
+    }
+    .NavView i{
+        color: var(--link-color);
+    }
+    .NavView ul li a{
+        color: var(--link-color);
+    }
+    
+    
     nav .list{
         display: block;
         
@@ -391,7 +421,7 @@ body{
     }
     header{
         text-align: center;
-        margin-bottom: 5rem;
+        margin-bottom: 15rem;
     }
     .bg{
         width: 287px;
@@ -405,10 +435,14 @@ body{
         margin-top: 6rem;
         margin-bottom: 1rem;
     }
-    .r{
+    
+    header .right {
         width: 26rem;
         height: 26rem;
-        margin: 6rem auto;
+        margin: 0rem auto;
+    }
+    .bg{
+
     }
     .bg img:nth-child(1){
         position: absolute;
@@ -989,7 +1023,7 @@ header .left span{
     -o-border-radius: 50%;
 }
 .bg{
-    margin: auto;
+    margin: -3rem auto;
     display: block;
     z-index: 2;
     position: relative;
@@ -1480,25 +1514,3 @@ footer div ul li a{
     
     opacity: 1;
 }
-.Nav{
-    opacity: 1;
-    transition: .8s;
-    -webkit-transition: .8s;
-    -moz-transition: .8s;
-    -ms-transition: .8s;
-    -o-transition: .8s;
-}
-.Nav.NavView{
-    position: fixed;
-    width: 100%;
-    z-index: 5;
-    background-color: rgb(246 246 244 / 82%);
-    color: var(--link-color);
-}
-.NavView i{
-    color: var(--link-color);
-}
-.NavView ul li a{
-    color: var(--link-color);
-}
-
