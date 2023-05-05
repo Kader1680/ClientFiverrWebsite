@@ -335,7 +335,7 @@ body{
         text-align: center;
     }
     .accordium {
-        height: 14rem;
+        /* height: 14rem; */
         margin-bottom: 7rem;
     }
     footer div{
