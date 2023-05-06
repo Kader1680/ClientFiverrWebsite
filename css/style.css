@@ -34,7 +34,7 @@ body{
         position: fixed;
         width: 100%;
         z-index: 5;
-        background-color: #dfdfdf;
+        /* background-color: #dfdfdf; */
     }
     nav i{
         font-size: 30px;
@@ -64,9 +64,19 @@ body{
         left: 0;
         position: fixed;
         background-color: var(--text-color);
+
         padding: 20px 15px;
         box-shadow: 0 4px 10px #EDE9FE;
         z-index: 5;
+    }
+    .Nav.NavView{
+        position: fixed;
+        width: 100%;
+        z-index: 6;
+        background-color:#FFFFFF;
+        background-color:rgba(255, 255, 255, 0.706);
+        /* background-color: rgb(246 246 244 / 82%); */
+        color: var(--link-color);
     }
     nav .list.blk{
         display: block;
@@ -398,7 +408,9 @@ body{
         position: fixed;
         width: 100%;
         z-index: 6;
-        background-color: rgb(246 246 244 / 82%);
+        background-color:#FFFFFF;
+        background-color:rgba(255, 255, 255, 0.706);
+        /* background-color: rgb(246 246 244 / 82%); */
         color: var(--link-color);
     }
     .NavView i{
