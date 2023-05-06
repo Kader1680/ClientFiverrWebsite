@@ -101,6 +101,7 @@ body{
     }
     .left{
         margin: 5rem auto;
+        padding-top: 95px;
     }
     .left h2{
         font-size: 30px;
@@ -434,6 +435,7 @@ body{
     .left{
         margin-top: 6rem;
         margin-bottom: 1rem;
+        padding-top: 95px;
     }
     
     header .right {
@@ -529,6 +531,11 @@ body{
     }
     .desc{
         width: 70%;
+    }
+    .counter h4{
+        color: var(--title-color);
+        font-size: 40px;
+        font-weight: 600;
     }
     .countTop div{
         background-color: white;
@@ -970,6 +977,9 @@ nav .list li .Free{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
+header{
+    background-color: var(--bg-color);
+}
 
 header .left h2{
     font-weight: 700;
@@ -1010,7 +1020,9 @@ header .left span{
     color: #747493;
     line-height: 24px;
 }
-
+.use{
+    background-color: var(--bg-color);
+}
 .user p{
     width: 80px;
 }
@@ -1036,7 +1048,6 @@ header .left span{
 .bg{
     animation: Slide 8s infinite ease;
     -webkit-animation: Slide 8s infinite ease;
-
 }
 @keyframes Slide {
     25%{
@@ -1063,6 +1074,26 @@ header .left span{
 .counter{
     background-color: #f6f4fe;
 }
+.counter h4{
+    color: var(--title-color);
+    
+}
+.countbox div div span{
+    color: var(--title-color);
+
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: -34px;
+    margin-left: -22px;
+}
+.countbox div div div p{
+    color: var(--title-color);
+
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
 .leftScale{
     position: relative;
     margin: 80px 0px;
@@ -1307,7 +1338,9 @@ header .left span{
     -ms-transform: translateX(0%);
     -o-transform: translateX(0%);
 }
-
+.cost{
+    background-color: var(--bg-color);
+}
 
 .menu div{
     text-align: center;
@@ -1359,6 +1392,7 @@ header .left span{
 .accordium{
     /* max-width: 800px;
     height: 11rem; */
+    background-color: var(--bg-color);
     margin-bottom: 5rem;
 }
 
@@ -1413,6 +1447,7 @@ header .left span{
 }
 
 .convinced{
+    
     border-radius: 20px;
     color: white;
     background-color: var(--text-color);
