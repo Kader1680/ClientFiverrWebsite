@@ -17,7 +17,9 @@ body{
     /* background-color: #f6f4fe; */
 }
 .container{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #f6f4fe;
+
 
 }
 :root{
@@ -240,6 +242,7 @@ body{
         font-weight: 600;
     }
     .steps .wall{
+        display: none;
         margin-top: -58rem;
         margin-left: 38px;
     }
@@ -393,10 +396,14 @@ body{
     }
     .email{
         text-align: center;
+        padding: 40px 10px;
     }
-    .accordium {
-        /* height: 14rem; */
+    /* .accordium {
+        
         margin-bottom: 7rem;
+    } */
+    .accordium {
+        margin-top: 5rem;
     }
     footer div{
         text-align: center;
@@ -467,7 +474,9 @@ body{
     header .right {
         width: 26rem;
         height: 26rem;
-        margin: 0rem auto;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 5rem;
     }
     .bg{
 
@@ -636,15 +645,25 @@ body{
     }
     .LastField .FirstLeft{
         margin: 31px 20px;
+        width: 50%;
     }
     .secndright{
-        padding: 3rem 70px;
+        margin-left: 6rem;
+        padding: 3rem 62px;
 
     }
     .LastField{
         
         top: 321rem;
         width: 88%;
+    }
+    .LastField div img{
+        
+        
+    }
+    .image{
+        width: 17rem;
+        margin-top: 2rem;
     }
     .galerie .modern{
         position: absolute;
@@ -707,7 +726,7 @@ body{
         margin-bottom: 10rem;
     }
     .cost{
-        margin-top: 68rem;
+        /* margin-top: 68rem; */
     }
     .costing{
         width: 70%;
@@ -757,9 +776,13 @@ body{
         width: 21%;
         margin: auto;
     }
+    footer{
+        padding: 100px 20px;
+    }
     .copyright{
         display: flex;
         align-items: center;
+        
     }
 }
 @media(min-width:991px){
@@ -823,6 +846,9 @@ body{
     .content .leftSquare div{
         
     }
+    .TopField .FirstLeft {
+        margin: 71px 40px;
+    }
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
@@ -852,18 +878,32 @@ body{
         /* margin-top: 10rem; */
         margin-left: 30rem;
     }
-    
+    .image{
+        width: 20rem;
+        margin: 50px 0px;
+    }
     .TopField{
-        top: 186rem;
+        /* top: 186rem; */
+        top: 198rem;
         width: 88%;
     }
     .MiddelField{
-        top: 207rem;
+        /* top: 207rem; */
+        top: 220rem;
         width: 88%;
     }
     .LastField{
-        top: 227rem;
+        top: 239rem;
+        /* top: 227rem; */
         width: 88%;
+    }
+    .secndright {
+        margin-left: 13rem;
+        padding: 5rem 45px;
+    }
+    .LastField .FirstLeft {
+        margin: 83px 6px;
+        width: 51%;
     }
     .email{
         display: grid;
@@ -874,7 +914,7 @@ body{
         width: 30%;
     }
     .countTop div {
-        width: 90%;
+        width: 100%;
     }
     
 }
@@ -958,21 +998,32 @@ body{
     }
     
     .TopField{
-        
-        top: 186rem;
+        top: 196rem;
+        /* top: 186rem; */
         width: 88%;
     }
     .MiddelField{
-        
-        top: 207rem;
+        top: 217rem;
+        /* top: 207rem; */
         width: 88%;
     }
     .LastField{
-        
-        top: 227rem;
+        top: 235rem;
+
+        /* top: 227rem; */
         width: 88%;
     }
-    
+    .TopField .FirstLeft {
+        margin: 71px 75px;
+    }
+    .secndright {
+        margin-left: 23rem;
+        padding: 34rem -2px;
+    }
+    .image{
+        width: 20rem;
+        margin: 50px 0px;
+    }
     .email{
         grid-template-columns: 44% 18% 42%;
     }
@@ -1061,6 +1112,7 @@ header .left span{
     line-height: 24px;
 }
 .use{
+    margin-bottom: 5rem;
     background-color: var(--bg-color);
 }
 .user p{
@@ -1428,9 +1480,9 @@ header .left span{
     position: relative;
 }
 .contentBx .question{
-    color: white;
+    color: var(--title-color);
     padding: 10px;
-    background-color: #6a49f2;
+    background-color: white;
 }
 .contentBx .question::before{
     content: "+";
@@ -1461,8 +1513,8 @@ header .left span{
 .contentBx.active .answer {
     height: auto;
     overflow: visible;
-    color: black;
-    background-color: #dfdfdf;
+    color: #545577;
+    background-color: white;
     padding: 20px 30px;
 }
 .contentBx div{
@@ -1510,6 +1562,7 @@ header .left span{
     margin: 2rem auto;
     color: white;
     background-color: var(--text-color);
+    border-radius: 15px;
 }
 .email input, button{
     border: none;
@@ -1575,4 +1628,25 @@ footer div ul li a{
 .scrollTop.scrollview{
     
     opacity: 1;
+}
+.accordium h2{
+    color: var(--title-color);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+.accordium  p{
+    color: var(--text-color);
+    text-align: center;
+    font-weight: 600;
+    
+}
+.accordium  p{
+    color: var(--main-color);
+    font-size: 16px;
+
+    font-weight: 600;
+}
+.counter .rightScale div div div img{
+    width: 3rem;
 }
