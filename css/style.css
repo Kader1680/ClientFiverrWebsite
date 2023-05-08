@@ -193,12 +193,16 @@ body{
         display: block;
     }
     .rht img{
-        margin-left: 1rem;
-        width: 15rem;
-    }
-    .rht, .rht_2 img{
-        margin-left: 2rem;
         width: 12rem;
+        display: block;
+        margin: inherit;
+    }
+    .rht_2 img{
+        width: 12rem;
+        display: block;
+        margin: inherit;
+        /* margin-left: 2rem;
+        width: 12rem; */
     }
     .content .RightSquare .rht_2 {
         margin-left: 3rem;
@@ -220,8 +224,11 @@ body{
         -o-transform: translateX(0%);
     }
     .content .leftSquare .one img {
-        margin-left: 3rem;
+        /* margin-left: 3rem;
+        width: 12rem; */
         width: 12rem;
+        display: block;
+        margin: inherit;
     }
     .rightScale {
         margin: 7rem 0px;
