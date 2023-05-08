@@ -89,7 +89,7 @@ function startCouter(element) {
         if (element.textContent == goal) {
             clearInterval(count)
         }
-    },  1 / 10000000);
+    },  1 / 10);
     
 }
 
@@ -147,13 +147,22 @@ window.addEventListener('scroll', ()=>{
 // FAQ Question & Answer
 let Accordium = document.getElementsByClassName('contentBx')
 
-
 for (let i = 0; i < Accordium.length; i++) {
     
     Accordium[i].addEventListener('click', ()=>{
         Accordium[i].classList.toggle("active")
+        Accordium[i].classList.toggle("questBg")
+
     })
 }
+
+
+let question = document.querySelector('.question')
+question.addEventListener('click', ()=>{
+    
+    
+})
+
 
 // scroll to the top 
 let scrollTop = document.querySelector('.scrollTop')
@@ -185,6 +194,53 @@ window.addEventListener('scroll', ()=>{
         Nav.classList.add('NavView')
     } else {
         Nav.classList.remove('NavView')
+        
+    }
+})
+
+
+// OPACITY ANIMATION JS
+
+let cost = document.querySelector('.cost')
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 3488) {
+        cost.classList.add('opac')
+    } else {
+        cost.classList.remove('opac')
+        
+    }
+})
+
+let accordium = document.querySelector('.accordium')
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 4270) {
+        accordium.classList.add('opac')
+    } else {
+        accordium.classList.remove('opac')
+        
+    }
+})
+
+let convinced = document.querySelector('.convinced')
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 4670) {
+        convinced.classList.add('opac')
+    } else {
+        convinced.classList.remove('opac')
+        
+    }
+})
+
+let email = document.querySelector('.email')
+window.addEventListener('scroll', ()=>{
+    
+    if (window.scrollY > 5030) {
+        email.classList.add('opac')
+    } else {
+        email.classList.remove('opac')
         
     }
 })
