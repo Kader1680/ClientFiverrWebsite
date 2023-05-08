@@ -192,12 +192,12 @@ body{
         text-align: center;
         display: block;
     }
-    .rht img{
+    .RightSquare .rht img{
         width: 12rem;
         display: block;
         margin: inherit;
     }
-    .rht_2 img{
+    .RightSquare .rht_2 img{
         width: 12rem;
         display: block;
         margin: inherit;
