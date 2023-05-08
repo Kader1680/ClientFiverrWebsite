@@ -418,7 +418,11 @@ body{
         padding: 3rem 0;
 
     }
-
+    
+    .accordium.opac{
+        opacity: 1;
+        margin-top: 4rem;
+    }
 }
 
 
@@ -744,7 +748,10 @@ body{
         margin-top: 10rem;
     }
 
-
+    .accordium.opac{
+        opacity: 1;
+        margin-top: 0;
+    }
     .costing{
         width: 70%;
         margin: auto;
@@ -1748,10 +1755,7 @@ footer div ul li a{
 opacity: 1;
 margin-top: 0;
 }
-.accordium.opac{
-    opacity: 1;
-    margin-top: 0;
-}
+
 .convinced.opac{
     opacity: 1;
     margin-top: 0;
