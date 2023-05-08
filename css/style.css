@@ -414,6 +414,10 @@ body{
     .copyright{
         text-align: center;
     }
+    footer{
+        padding: 3rem 0;
+
+    }
 
 }
 
@@ -804,6 +808,9 @@ body{
     }
     footer{
         padding-left: 40px;
+    }
+    footer div ul {
+        margin: 0 -2rem;
         
     }
 }
@@ -1760,10 +1767,7 @@ footer div ul li a:hover{
     padding: 5px 15px;
     
 }
-footer div ul {
-    margin: 0 -2rem;
-    
-}
+
 
 nav .list li a:hover{
     padding-bottom: 5px;
