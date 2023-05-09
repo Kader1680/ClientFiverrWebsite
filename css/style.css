@@ -651,9 +651,9 @@ body{
         position: absolute;
     }
     .TopField{
-        left: 24px;
+        /* left: 24px; */
         top: 281rem;
-        width: 89%;
+        /* width: 89%; */
     }
     .MiddelField{
         
@@ -665,12 +665,12 @@ body{
         margin: 40px 53px;
     }
     .LastField .FirstLeft{
-        margin: 31px 20px;
-        width: 50%;
+        /* margin: 31px 20px;
+        width: 50%; */
     }
     .secndright{
-        margin-left: 6rem;
-        padding: 3rem 62px;
+        /* margin-left: 6rem;
+        padding: 3rem 62px; */
 
     }
     .LastField{
