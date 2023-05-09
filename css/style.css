@@ -426,8 +426,6 @@ body{
     .NavView ul li a{
         color: var(--link-color);
     }
-    
-    
     nav .list{
         display: block;
         
@@ -460,16 +458,12 @@ body{
         margin-bottom: 1rem;
         padding-top: 95px;
     }
-    
     header .right {
         width: 26rem;
         height: 26rem;
         margin-right: auto;
         margin-left: auto;
         margin-top: 5rem;
-    }
-    .bg{
-
     }
     .bg img:nth-child(1){
         position: absolute;
@@ -484,9 +478,6 @@ body{
         width: 158px;
         top: 28rem;
         left: -11rem;
-    }
-    .content .leftSquare div{
-        
     }
     .content .leftSquare div p{
         width: 444%;
@@ -640,17 +631,12 @@ body{
     }
     .secndright{
         width: 17rem;
-
-
     }
     .LastField{
         top: -18rem;
         width: 100%;
     }
-    .LastField div img{
-        
-        
-    }
+    
     .image{
         width: 17rem;
     }
@@ -666,9 +652,6 @@ body{
         z-index: 2;
         top: -7rem;
         left: 4rem;
-    }
-    .galerie .modern img:nth-child(2){
-        
     }
     .galerie .modern img:nth-child(3){
         top: 14rem;
@@ -722,11 +705,13 @@ body{
     .cost {
         margin-top: 10rem;
     }
-
-    .accordium.opac{
+    
+    .cost.opac{
         opacity: 1;
         margin-top: 0;
-    }
+        }
+
+    
     .costing{
         width: 70%;
         margin: auto;
@@ -914,6 +899,10 @@ body{
     .cost {
         margin-top: 15rem;
     }
+    .cost.opac{
+        opacity: 1;
+        margin-top: 2rem;
+    }
     footer{
         padding-left: 47px;
         
@@ -968,9 +957,7 @@ body{
         width: 58%;
         margin: auto;
     }
-    .content .leftSquare div{
-
-    }
+    
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
@@ -996,7 +983,10 @@ body{
         grid-template-columns: 19% 39% 32%;
         margin-left: 16rem;
     }
-
+    .cost.opac{
+        opacity: 1;
+        margin-top: 5rem;
+    }
     
     .image {
         width: 26rem;
@@ -1677,10 +1667,7 @@ footer div ul li a{
 .email{
     margin-top: 15rem;
 }
-.cost.opac{
-opacity: 1;
-margin-top: 0;
-}
+
 
 .convinced.opac{
     opacity: 1;
