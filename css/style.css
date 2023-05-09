@@ -649,6 +649,8 @@ body{
         justify-content: space-between;
         overflow-x: hidden;
         position: absolute;
+        
+        width: 90%;
     }
     .TopField{
         /* left: 24px; */
@@ -658,11 +660,11 @@ body{
     .MiddelField{
         
         top: 300rem;
-        width: 90%;
+        /* width: 90%; */
     }
     .TopField .FirstLeft{
-        width: 13rem;
-        margin: 40px 53px;
+        /* width: 13rem;
+        margin: 40px 53px; */
     }
     .LastField .FirstLeft{
         /* margin: 31px 20px;
@@ -676,7 +678,7 @@ body{
     .LastField{
         
         top: 321rem;
-        width: 88%;
+        /* width: 88%; */
     }
     .LastField div img{
         
@@ -893,7 +895,7 @@ body{
         
     }
     .TopField .FirstLeft {
-        margin: 71px 40px;
+        /* margin: 71px 40px; */
     }
     .content .leftSquare div p{
         width: 444%;
@@ -930,18 +932,18 @@ body{
         justify-content: center; */
     }
     .image{
-        width: 20rem;
-        margin: 50px 0px;
+        /* width: 20rem; */
+        /* margin: 50px 0px; */
     }
     .TopField{
         /* top: 186rem; */
         top: 198rem;
-        width: 88%;
+        /* width: 88%; */
     }
     .MiddelField{
         /* top: 207rem; */
         top: 220rem;
-        width: 88%;
+        /* width: 88%; */
     }
     .LastField{
         top: 239rem;
@@ -949,12 +951,12 @@ body{
         width: 88%;
     }
     .secndright {
-        margin-left: 13rem;
-        padding: 5rem 45px;
+        /* margin-left: 13rem;
+        padding: 5rem 45px; */
     }
     .LastField .FirstLeft {
-        margin: 83px 6px;
-        width: 51%;
+        /* margin: 83px 6px;
+        width: 51%; */
     }
     .email{
         display: grid;
@@ -1063,29 +1065,29 @@ body{
     .TopField{
         top: 196rem;
         /* top: 186rem; */
-        width: 88%;
+        /* width: 88%; */
     }
     .MiddelField{
         top: 217rem;
         /* top: 207rem; */
-        width: 88%;
+        /* width: 88%; */
     }
     .LastField{
         top: 235rem;
 
         /* top: 227rem; */
-        width: 83%;
+        /* width: 83%; */
     }
     .TopField .FirstLeft {
-        margin: 71px 75px;
+        /* margin: 71px 75px; */
     }
     .secndright {
-        margin-left: 23rem;
-        padding: 34rem -2px;
+        /* margin-left: 23rem;
+        padding: 34rem -2px; */
     }
     .image{
-        width: 20rem;
-        margin: 50px 0px;
+        /* width: 20rem;
+        margin: 50px 0px; */
     }
     .email{
         grid-template-columns: 44% 18% 42%;
