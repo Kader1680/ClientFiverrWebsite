@@ -673,6 +673,7 @@ body{
     .TopField .FirstLeft{
         /* width: 13rem;
         margin: 40px 53px; */
+        width: 30%;
     }
     .LastField .FirstLeft{
         /* margin: 31px 20px;
@@ -908,8 +909,9 @@ body{
         
     }
     .TopField .FirstLeft {
-        /* margin: 71px 40px; */
+        width: 23%;
     }
+    
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
@@ -968,8 +970,7 @@ body{
         padding: 5rem 45px; */
     }
     .LastField .FirstLeft {
-        /* margin: 83px 6px;
-        width: 51%; */
+        width: 25rem;
     }
     .email{
         display: grid;
@@ -1091,9 +1092,7 @@ body{
         /* top: 227rem; */
         /* width: 83%; */
     }
-    .TopField .FirstLeft {
-        /* margin: 71px 75px; */
-    }
+    
     .secndright {
         /* margin-left: 23rem;
         padding: 34rem -2px; */
@@ -1802,10 +1801,10 @@ footer div ul li a:hover{
 }
 
 
-nav .list li a:hover{
+/* nav .list li a:hover{
     padding-bottom: 5px;
     border-bottom: 3px solid var(--text-color);
-}
+} */
 .contentBx .question{
     padding: 21px 24px;
     background-color: white;
