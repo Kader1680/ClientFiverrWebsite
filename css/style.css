@@ -639,11 +639,7 @@ body{
         margin-left: -12px;
 
     }
-    /* .steps .wall{
-        margin-top: 3rem;
-        margin-left: 22rem;
-    } */
-    .leftScale img:nth-child(2){
+    .leftScale img:nth-child(2){ 
         position: absolute;
         left: 12rem;
         top: 9rem;
