@@ -1,9 +1,26 @@
 // togggle navbar 
-let icon = document.querySelector('.fa-bars-staggered')
+let icon = document.querySelector('.Icon')
 let list = document.querySelector('.list')
 icon.addEventListener('click', ()=>{
     list.classList.toggle('blk')
+
 })
+
+
+//  x-Mark click
+let x = document.querySelector('.fa-x')
+let bars = document.querySelector('.fa-bars-staggered')
+
+icon.addEventListener('click', ()=>{
+    x.classList.toggle('xView')
+    bars.classList.toggle('hide')
+
+})
+// x.addEventListener('click', ()=>{
+//     x.classList.remove('xView')
+//     icon.classList.add('Hiden')
+// })
+
 // scroll animation
 let head = document.querySelector('.head')
 
