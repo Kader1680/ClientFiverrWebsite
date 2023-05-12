@@ -894,6 +894,9 @@ body{
     .TopField .FirstLeft.center {
         margin-left: 9rem;
     }
+    .secndright.center {
+        margin-right: 5rem;
+    }
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
