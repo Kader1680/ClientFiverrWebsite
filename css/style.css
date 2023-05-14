@@ -644,6 +644,7 @@ body{
     .TopField .FirstLeft{
         width: 30%;
         text-align: end;
+        margin-left: 3rem;
     }
     .LastField .FirstLeft{
         width: 17rem;
@@ -892,7 +893,7 @@ body{
         margin-left: 11rem;
     }
     .TopField .FirstLeft.center {
-        margin-left: 10rem;
+        margin-left: 145px;
     }
     .secndright.center {
         margin-right: 5rem;
@@ -1060,11 +1061,21 @@ body{
     .secndright.center {
         margin-right: 9rem;
     }
+    .thrdleft.center {
+        margin-left: 12px;
+    }
+    .TopField .FirstLeft.center {
+        margin-left: 167px;
+    }
 }
 
 
 
-
+@media(min-width:1440px){
+    .TopField .FirstLeft.center {
+        margin-left: 117px;
+    }
+}
 
 
 
@@ -1477,8 +1488,9 @@ header .left span{
 .offer div{
     border-radius: 10px;
     color: var(--text-color);
-    
+
     background-color: white;
+
     border: 1px solid var(--text-color);
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
