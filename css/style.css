@@ -275,9 +275,6 @@ body{
     .choise{
         text-align: center;
     }
-    .galerie{
-        
-    }
     .galerie img{
         width: 14rem;
     }
@@ -461,6 +458,10 @@ body{
         display: none;
 
     }
+    .phone{
+        background-color: red;
+        width: 0;
+    }
     header{
         text-align: center;
         margin-bottom: 15rem;
@@ -498,6 +499,12 @@ body{
         width: 158px;
         top: 28rem;
         left: -11rem;
+    }
+    .leftSquare .lft img{
+        margin-left: -1.5rem;
+    }
+    .leftSquare .lft_2 img{
+        margin-left: -1rem;
     }
     .content .leftSquare div p{
         width: 444%;
@@ -537,7 +544,7 @@ body{
         -o-transform: translateX(-500%);
     }
     .content .RightSquare{
-        overflow-x: hidden
+        /* overflow-x: hidden */
     }
     .content .RightSquare .rht, .rht_2{
         transform: translateX(500%);
@@ -565,6 +572,7 @@ body{
         -ms-transform: translateX(0%);
         -o-transform: translateX(0%);
     }
+    
     .desc{
         /* width: 70%; */
     }
@@ -885,8 +893,11 @@ body{
         width: 70%;
         margin: auto;
     }
-    .content .leftSquare div{
-        
+    .leftSquare .lft img{
+        margin-left: 1.5rem;
+    }
+    .leftSquare .lft_2 img{
+        margin-left: 2.4rem;
     }
     .TopField .FirstLeft {
         width: 23%;
@@ -1010,7 +1021,12 @@ body{
         width: 58%;
         margin: auto;
     }
-    
+    .leftSquare .lft img{
+        margin-left: -0.5rem;
+    }
+    .leftSquare .lft_2 img{
+        margin-left: 0.4rem;
+    }
     .content .leftSquare div p{
         width: 444%;
         text-align: end;
@@ -1072,8 +1088,30 @@ body{
 
 
 @media(min-width:1440px){
+
+    .content .RightSquare .rht.vis {
+    transform: translateX(-60%);
+    -webkit-transform: translateX(-60%);
+    -moz-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    -o-transform: translateX(-60%);
+    }
+    .content .RightSquare .rht_2.vis {
+    transform: translateX(-60%);
+    -webkit-transform: translateX(-60%);
+    -moz-transform: translateX(-60%);
+    -ms-transform: translateX(-60%);
+    -o-transform: translateX(-60%);
+    }
     .TopField .FirstLeft.center {
         margin-left: 117px;
+    }
+    
+    .leftSquare .lft img{
+        margin-left: 1.8rem;
+    }
+    .leftSquare .lft_2 img{
+        margin-left: 3.2rem;
     }
 }
 
