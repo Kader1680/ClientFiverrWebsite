@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /*  */
-
-    
 }
 html body{
     background-color: #f6f4fe;
@@ -35,7 +32,6 @@ body{
         position: fixed;
         width: 100%;
         z-index: 5;
-        /* background-color: #dfdfdf; */
     }
     nav i{
         font-size: 30px;
@@ -1748,7 +1744,12 @@ footer div ul li a{
 }
 
 
-
+.one h3{
+    color: var(--title-color);
+}
+.one p{
+    color: var(--main-color);
+}
 footer div ul li a:hover{
     transition: .5s;
     text-decoration: none;
